@@ -1,0 +1,4 @@
+*.class
+/out/*
+/.idea/*
+JVMTest.iml
