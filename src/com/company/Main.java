@@ -25,7 +25,7 @@ public class Main {
         }
         SAVE_HOOK=null;
         System.gc();
-        Thread.sleep(500);
+        Thread.sleep(500);//stop to wait for Finalize method.
         if(SAVE_HOOK!=null){
             SAVE_HOOK.isAlive();
         }else {
